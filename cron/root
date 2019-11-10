@@ -1,0 +1,1 @@
+* * * * * /usr/local/bin/node /home/node/hello.js >> /var/log/crontest/hello.log 2>&1

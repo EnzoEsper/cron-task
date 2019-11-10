@@ -1,0 +1,9 @@
+version: "3"
+services:
+  cron:
+    build: cron
+    container_name: crontest2
+    volumes:
+      - ./var/log/crontest:/var/log/crontest
+      - ./cron/root:/etc/cron.d/root
+      - ./scripts:/home/node
